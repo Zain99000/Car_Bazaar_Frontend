@@ -1,0 +1,13 @@
+.heading {
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    align-items: center;
+    /* position: fixed;
+    top: 0px; */
+    width: 100%;
+}
