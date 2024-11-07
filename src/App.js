@@ -1,13 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Header';
-import { CarDisplays } from './Components/CarDisplaysAutomatic';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import CarInfo from './Components/CarInfo';
+import Home from './Pages/Home';
 
 function App() {
+
+  const router = createBrowserRouter([
+    { path: '/', element: <Home /> },
+    { path: '/carinfo/:carid', element: <CarInfo /> },
+  ])
+
   return (
     <div className="App">
-      <Header />
-      <CarDisplays />
+      <RouterProvider router={router} />
     </div>
   );
 }
