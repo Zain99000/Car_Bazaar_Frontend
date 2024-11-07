@@ -5,8 +5,9 @@
     background-color: darkslategray;
     margin: 0;
     padding: 0;
-}
-
-.mainheader{
-    /* background-color: black; */
+    height: 15vh;
+    align-items: center;
+    /* position: fixed;
+    top: 0px; */
+    width: 100%;
 }
