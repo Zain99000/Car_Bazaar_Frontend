@@ -1,0 +1,12 @@
+.heading {
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader{
+    /* background-color: black; */
+}
